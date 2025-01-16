@@ -900,7 +900,7 @@ hr {
   .tile.tile-204 .tile-inner {
     color: #e30101;
     background: #cdc1b4;
-    scale: 444px; }
+    font-size: 444px; }
   .tile.tile-333 .tile-inner {
     color: #ff5c30;
     background: #bfff77;
