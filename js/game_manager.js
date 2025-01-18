@@ -246,3 +246,4 @@ GameManager.prototype.positionsEqual = function (first, second) {
 };
 
 
+
