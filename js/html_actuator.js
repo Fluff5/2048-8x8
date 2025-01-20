@@ -69,17 +69,12 @@ HTMLActuator.prototype.addTile = function (tile) {
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
   if (tile.value === 101) inner.textContent = 1;
-  if (tile.value === 106) inner.textContent = 16;
   if (tile.value === 120) inner.textContent = 20;
   if (tile.value === 121) inner.textContent = 21;
-  if (tile.value === 130) inner.textContent = 30;
+  if (tile.value === 131) inner.textContent = 31;
   if (tile.value === 141) inner.textContent = 41;
   if (tile.value === 150) inner.textContent = 50;
   if (tile.value === 166) inner.textContent = 66;
-  if (tile.value === 201) inner.textContent = "?";
-  if (tile.value === 202) inner.textContent = "!";
-  if (tile.value === 203) inner.textContent = "X";
-  if (tile.value === 204) inner.textContent = "✖";
   if (tile.value === 661) inner.textContent = 61;
 
   if (tile.previousPosition) {
