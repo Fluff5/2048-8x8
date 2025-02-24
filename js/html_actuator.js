@@ -68,14 +68,18 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
-  if (tile.value === 101) inner.textContent = 1;
   if (tile.value === 120) inner.textContent = 20;
   if (tile.value === 121) inner.textContent = 21;
-  if (tile.value === 131) inner.textContent = 31;
-  if (tile.value === 141) inner.textContent = 41;
   if (tile.value === 150) inner.textContent = 50;
   if (tile.value === 166) inner.textContent = 66;
-  if (tile.value === 661) inner.textContent = 61;
+  if (tile.value === 371) inner.textContent = 37;
+  if (tile.value === 372) inner.textContent = 37;
+  if (tile.value === 373) inner.textContent = 37;
+  if (tile.value === 374) inner.textContent = 37;
+  if (tile.value === 375) inner.textContent = 37;
+  if (tile.value === 376) inner.textContent = 37;
+  if (tile.value === 377) inner.textContent = 37;
+  if (tile.value === 378) inner.textContent = 37;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
